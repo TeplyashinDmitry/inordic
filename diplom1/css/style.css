@@ -1,0 +1,699 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background: url('../photos/2-layers.jpg') center center/cover no-repeat;
+    width:100%;
+    height: 100vh;
+    
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1180px;
+    height: 100vh;
+    margin: 0 auto;   
+}
+.nav {
+    box-sizing: border-box;
+    padding: 0 15px;
+    justify-content: space-between;
+    display: flex;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+}
+.nav-logo {
+    background: url(../icons/2-layers.png)center center/contain no-repeat;
+    width: 200px;
+    height: 100px;
+    padding: 21px 0 0 0;
+    box-sizing: border-box;
+    /* animation: show-logo 3s infinite alternate; */
+}
+
+
+/* @keyframes show-logo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        width: 200px;
+        height: 100px;
+        transform: rotate(360deg)
+    }
+
+} */
+
+.nav-menu-a {
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0 0 0 25px;
+   position: relative;
+}
+.moscow-photo-img66{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+}
+
+.center-slider {
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+p.center-slider-mm {
+    color: #ffffff;
+    font-family: "Roboto - Condensed";
+    font-size: 59px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    line-height: 30px;
+}
+p.center-slider-mmm {
+    color: #ffffff;
+    font-family: "Roboto - Condensed";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+}
+.btn {
+    position: absolute;
+    width: 188px;
+    height: 49px;
+    bottom: 20px;
+    background-color:#709dca;
+    border-radius:5px;
+ }
+.btn a {
+    display: block;
+    text-align: center;
+    padding: 15px 0 0 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+.wrapper2 {
+   
+    justify-content: center;
+    width: 100%;
+    max-width: 1180px;
+    height: 740px;
+    margin: 0 auto;
+    
+}
+.title {
+ 
+    padding: 80px 10px 35px 10px;
+}
+.title h2 {
+    margin: 0;
+    color: #709dca;
+    font-family: "Roboto - Condensed";
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title p {
+    color: #394b50;
+    font-family: "Roboto - Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+.title-blocks {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.title-blocks-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+    box-sizing: border-box;
+}
+.box-title h3 {
+    color: #394b50;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+.box-title p {
+    color: #7b7b7b;
+    font-family: "Myriad Pro";
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+.box-title {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.box-pic1 {
+    background: url('../icons/map.png')center center/contain no-repeat;
+    width: 100px;
+    height: 50px;
+    box-sizing:border-box;
+}
+.box-pic2 {
+    background: url('../icons/souvenir.png')center center/contain no-repeat;
+    width: 80px;
+    height: 50px;
+    box-sizing:border-box;
+}
+.box-pic3 {
+    background: url('../icons/compass.png')center center/contain no-repeat;
+    width: 137px;
+    height: 50px;
+    box-sizing:border-box;
+}
+.box-pic4 {
+    background: url('../icons/picture.png')center center/contain no-repeat;
+    width: 100px;
+    height: 50px;
+    box-sizing:border-box;
+}
+.box-pic5 {
+    background: url('../icons/discussion.png')center center/contain no-repeat;
+    width: 100px;
+    height: 50px;
+    box-sizing:border-box;
+}
+.box-pic6 {
+    background: url('../icons/sun.png')center center/contain no-repeat;
+    width: 70px;
+    height: 50px;
+    box-sizing:border-box;
+}
+.wrapper3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url('../photos/Rectangle_5.jpg') center center/cover no-repeat;
+    width:100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.group-pic {
+    width: 50%;
+    background: url('../photos/group.jpg')center center/cover no-repeat ;
+    box-sizing: border-box;
+}
+.group-text {
+    position: relative;
+    width: 50%;
+    padding: 15px 20px 10px 35px;
+    box-sizing: border-box;
+}
+.group-text h3{
+    color: #ffffff;
+    font-family: "Roboto - Condensed";
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.group-text p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 35px auto;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    box-sizing: border-box;
+}
+.button {
+    
+    width: 184px;
+    border: 1px solid #cb8d21;
+    background-color: #e7ad48;
+    padding: 12px 25px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+.button a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.moscow{
+    position: relative;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.moscow-title {
+    line-height: 60px;
+    padding: 35px 10px;
+}
+.moscow-title h2 {
+    color: #709dca;
+    font-family: "Roboto - Condensed";
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.moscow-title h2:before {
+    margin: 57px auto;
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 20%;
+    height: 1px;
+    right: 0;
+    left: 0;
+    background: rgb(255, 193, 85);
+}
+.moscow-title p {
+    color: #062033;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.58px;
+    text-align: center;
+}
+.wrapper4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.moscow-photo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+}
+.moscow-photo-img1 {
+    background: url('../photos/4.jpg')center center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+}
+.moscow-photo-img2 {
+    background: url('../photos/3.jpg')center center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+}
+.moscow-photo-img3 {
+    background: url('../photos/2.jpg')center center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+}
+.moscow-photo-img4 {
+    background: url('../photos/1.jpg')center center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+}
+.moscow-photo-img5 {
+    background: url('../photos/8.jpg')center center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+}
+.moscow-photo-img6 {
+    background: url('../photos/7.jpg')center center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+}
+.moscow-photo-img7 {
+    background: url('../photos/6.jpg')center center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+}
+.moscow-photo-img8 {
+    background: url('../photos/5.jpg')center center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+}
+.wrapper5 {
+    position: relative;
+    width: 100%;
+    max-width: 1180px;
+    height: 560px;
+    margin: 0 auto;
+}
+.review-title{
+    line-height: 60px;
+    padding: 35px 10px;
+}
+.review-title h2 {
+    color: #709dca;
+    font-family: "Myriad Pro";
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.review-title h2:before {
+    margin: 60px auto;
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 20%;
+    height: 1px;
+    right: 0;
+    left: 0;
+    background: rgb(255, 193, 85);
+}
+.review-opinion {
+    display: flex;
+
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.review-one {
+    background-color: #f6f3f3;
+    width: 50%;
+    margin: 0 28px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+}
+.review-two {
+    background-color: #f6f3f3;
+    width: 50%;
+    margin: 0 28px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+}
+.reviews-one-pic {
+    display: flex;
+}
+.reviews-two-pic {
+    display: flex;
+}
+.face1 {
+    background: url('../testimonials/test1.jpg') center center / cover no-repeat;
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+}
+.face2 {
+    background: url('../testimonials/test2.jpg') center center / cover no-repeat;
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+}
+.reviews-one-pic p {
+    padding: 0 0 0 10px;
+}
+.reviews-two-pic p {
+    padding: 0 0 0 10px;
+}
+.wrap {
+    position: relative;
+    background-color: #f6f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 460px;
+    box-sizing: border-box;
+}
+
+.wrapper6 {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.email-title{
+    line-height: 60px;
+    padding: 35px 10px;
+}
+.email-title h2 {
+    color: #709dca;
+    font-family: "Myriad Pro";
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.email-title h2:before {
+    margin: 60px auto;
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 20%;
+    height: 1px;
+    right: 0;
+    left: 0;
+    background: rgb(255, 193, 85);
+}
+.wrapper8 {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.email-pol {
+    width: 50%;
+    box-sizing: border-box;
+}
+.email-area {
+    width: 50%;
+    box-sizing: border-box;
+}
+.email-area textarea {
+    width: 100%;
+    height: 88%;
+    border: 4px solid #ffc155;
+    background-color: #ffffff;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.email-btn {
+    width: 50%;
+    box-sizing: border-box;
+}
+.btn-ftr {
+    width: 95%;
+    height: 48px;
+    color: #fff; 
+	background: #273a43; 
+	padding: 5px; 
+	border-radius: 5px;
+    border: 4px solid #ffc155;
+    box-sizing: border-box;
+} 
+
+input {
+    width: 95%;
+    height: 49px;
+    border: 4px solid #ffc155;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+footer {
+    background: url('../photos/footer.png') center center/cover no-repeat;
+    width:100%;
+    box-sizing: border-box;
+}
+.wrapper7 {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.contact-info {
+    width: 30%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.cont-logo {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+.logoFooter1 {
+    width: 40px;
+    background: url('../icons/spasskaya-tower.png') center center / contain no-repeat;
+    padding: 20px 10px;
+}
+.textLogoFooter1 {
+    color: #ffdb47;
+    font-family: "MV Boli";
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 11.75px;
+    text-align: center;
+}
+.offer {
+    color: #c3c3c3;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+}
+.contacts {
+    width: 30%;
+    padding: 20px 50px 0 100px;
+    box-sizing: border-box;
+}
+.cont-adress {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 25px auto;
+    
+}
+.contFooter {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(255, 255, 255)
+}
+.logoFooter2 {
+    background: url('../icons/placeholder.png') center center / contain no-repeat;
+    padding: 5px;
+    margin-right: 15px;
+}
+.logoFooter3 {
+    background: url('../icons/mail.png') center center / contain no-repeat;
+    padding: 5px;
+    margin-right: 15px;
+}
+.logoFooter4 {
+    background: url('../icons/telephone.png') center center / contain no-repeat;
+    padding: 5px;
+    margin-right: 15px;
+}
+.newss {
+    width: 30%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.date {
+    color: #71b6d5;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+}
+.copyright {
+    margin: 0;
+    padding: 0;
+    background-color: #172227;
+}
+.copyright-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    font-size: 13px;
+    color: rgb(196, 196, 196);
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.copyright p {
+    margin: 25px 5px;
+    box-sizing: border-box;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vk {
+    background: white url('../social/vk.png') center center / cover no-repeat;
+    padding: 17px;
+    margin: auto 2px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.facebook {
+    background: white url('../social/facebook.png') center center / cover no-repeat;
+    padding: 17px;
+    margin: auto 2px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.instagram {
+    background: white url('../social/instagram.png') center center / cover no-repeat;
+    padding: 17px;
+    margin: auto 2px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.maaaar {
+    margin: 45px 0 0 0;
+}
+
+
+
